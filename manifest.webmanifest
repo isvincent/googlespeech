@@ -1,0 +1,22 @@
+{
+  "name": "Google 中文語音實驗室｜BYOK",
+  "short_name": "中文語音",
+  "description": "Google Cloud Text-to-Speech 中文語音試聽與 MP3 下載工具（自備 API Key）",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "lang": "zh-Hant-TW",
+  "dir": "ltr",
+  "background_color": "#f7fbff",
+  "theme_color": "#4285f4",
+  "categories": ["education", "utilities", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
